@@ -696,3 +696,977 @@ Error: listen EADDRINUSE: address already in use :::3000
     at Module._compile (node:internal/modules/cjs/loader:1218:14)
     at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
     at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:45:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15255.453},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19058035,"external":20594127,"heapTotal":86507520,"heapUsed":64992560,"rss":129220608},"pid":22964,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-17T06:15:13.131Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" must be a string 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:41:08.103Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ab" fails to match the required pattern: /^[a-zA-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:47:48.799Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ab1" fails to match the required pattern: /^[a-zA-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:47:59.284Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ab541" fails to match the required pattern: /^[a-zA-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:48:07.753Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "abssssssssssssssssssssssssssssssssssss" fails to match the required pattern: /^[a-zA-Z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:48:58.837Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).minOfSpecialCharacters is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:8:28)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:57:51.822Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).minOfSpecialCharacters is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:8:28)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T09:58:26.350Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).minOfSpecialCharacters is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:8:28)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:00:19.841Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "12345687" fails to match the required pattern: /^[a-z]{3}-[A-Z]{1}-[0-9]{3}-[!@#$%&*]{1}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:09:54.663Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf@123" fails to match the required pattern: /^[a-z]{3}-[A-Z]{1}-[0-9]{3}-[!@#$%&*]{1}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:10:27.975Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123@" fails to match the required pattern: /^[a-z]{3}-[A-Z]{1}-[0-9]{3}-[!@#$%&*]{1}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:11:05.762Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123@" fails to match the required pattern: /^[a-z+]{3}-[A-Z+]{1}-[0-9+]{3}-[!@#$%&*]{1}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:11:37.020Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123@" fails to match the required pattern: /^[a-z]{3,}-[A-Z+]{1,}-[0-9+]{3,}-[!@#$%&*]{1,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:14:30.786Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfghvb" fails to match the required pattern: /^[a-z]{3,}-[A-Z+]{1,}-[0-9+]{3,}-[!@#$%&*]{1,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:14:54.443Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfghvb" fails to match the required pattern: /^[a-z]{3,}-[A-Z+]{1,}-[0-9+]{3,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:16:11.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123" fails to match the required pattern: /^[a-z]{3,}-[A-Z+]{1,}-[0-9+]{3,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:16:33.160Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123" fails to match the required pattern: /^[a-z]{3,}-[A-Z]{1,}-[0-9]{3,}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:19:37.683Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123" fails to match the required pattern: /^[a-z]{3}-[A-Z]{1}-[0-9]{3}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:19:58.772Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asdf123" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T10:20:44.202Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asderf" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:22.360Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asderdddf" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:27.523Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asderdddf1" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:35.052Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Asderdddf1" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:41.922Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfgh" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:24:56.655Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfgh@" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:25:11.576Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfgh@12" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:25:17.922Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdfg" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T11:27:30.524Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "qweasdzxc" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T14:04:50.855Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "qweasdzxc4" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T14:05:19.793Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userSchema is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:5:3)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (C:\FundoNote\fundo-app\src\services\/user.service.js:4:29)
+    at _callee$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newRegistration (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:10:29)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T14:05:33.330Z"}
+error: 
+    status - 500 
+    message - ReferenceError: userSchema is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:6:3)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newRegistration (C:\FundoNote\fundo-app\src\services\/user.service.js:5:29)
+    at _callee$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:12:36)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newRegistration (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:10:29)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:14:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T14:06:47.475Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:30:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:18:22.275Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 46
+    at JSON.parse (<anonymous>)
+    at parse (C:\FundoNote\fundo-app\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:20:09.603Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:18:30)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:20:15.459Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 39
+    at JSON.parse (<anonymous>)
+    at parse (C:\FundoNote\fundo-app\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:20:26.499Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:22:01.642Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:23:58.101Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:25:24.791Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:25:52.485Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:31:56.168Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:33:22.850Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:33:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:36:45.548Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:30:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:41:02.827Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:29:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:48:12.004Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:59)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:48:22.475Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:59)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:48:35.310Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:29:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:48:41.014Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T15:55:26.206Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:14:48.756Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:14:55.955Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:22:57.835Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:24:39.259Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:24:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:26:47.148Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:24:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:34:53.943Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:24:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:39:04.430Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:27:41)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:41:56.447Z"}
+error: 
+    status - 500 
+    message - TypeError: _user.default.getUser is not a function
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:27:33)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:43:30.881Z"}
+error: 
+    status - 500 
+    message - TypeError: _user.default.userLogin is not a function
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:27:33)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:43:52.726Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\FundoNote\fundo-app\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\FundoNote\fundo-app\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:31)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T16:47:44.200Z"}
+error: 
+    status - 500 
+    message - Error: incorrect password 
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:25:15)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:18:08.484Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:62)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:18:17.250Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:62)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:18:30.815Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:28:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:19:19.058Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:21:62)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:19:25.541Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:28:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:20:14.057Z"}
+error: 
+    status - 500 
+    message - Error: incorrect password 
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:25:15)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T17:20:22.633Z"}

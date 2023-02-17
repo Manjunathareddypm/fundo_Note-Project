@@ -288,3 +288,193 @@ Error: listen EADDRINUSE: address already in use :::3000
     at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:45:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15255.453},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19068613,"external":20604745,"heapTotal":86769664,"heapUsed":65372016,"rss":129929216},"pid":22964,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
 info: ::1 - - [17/Feb/2023:06:17:19 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
 
+info: ::1 - - [17/Feb/2023:09:40:52 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:41:00 +0000] "POST /api/v1/users/ HTTP/1.1" 201 280 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:41:08 +0000] "POST /api/v1/users/ HTTP/1.1" 500 65 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:46:06 +0000] "POST /api/v1/users/ HTTP/1.1" 201 279 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:47:48 +0000] "POST /api/v1/users/ HTTP/1.1" 500 122 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:47:59 +0000] "POST /api/v1/users/ HTTP/1.1" 500 123 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:48:07 +0000] "POST /api/v1/users/ HTTP/1.1" 500 125 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:48:17 +0000] "POST /api/v1/users/ HTTP/1.1" 201 278 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:48:37 +0000] "POST /api/v1/users/ HTTP/1.1" 201 276 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:48:58 +0000] "POST /api/v1/users/ HTTP/1.1" 500 158 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:49:26 +0000] "POST /api/v1/users/ HTTP/1.1" 201 276 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:50:52 +0000] "POST /api/v1/users/ HTTP/1.1" 201 276 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:57:51 +0000] "POST /api/v1/users/ HTTP/1.1" 500 100 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:09:58:26 +0000] "POST /api/v1/users/ HTTP/1.1" 500 100 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:00:19 +0000] "POST /api/v1/users/ HTTP/1.1" 500 100 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:08:12 +0000] "POST /api/v1/users/ HTTP/1.1" 201 273 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:09:54 +0000] "POST /api/v1/users/ HTTP/1.1" 500 152 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:10:27 +0000] "POST /api/v1/users/ HTTP/1.1" 500 152 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:11:05 +0000] "POST /api/v1/users/ HTTP/1.1" 500 152 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:11:37 +0000] "POST /api/v1/users/ HTTP/1.1" 500 155 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:14:30 +0000] "POST /api/v1/users/ HTTP/1.1" 500 158 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:14:54 +0000] "POST /api/v1/users/ HTTP/1.1" 500 158 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:16:11 +0000] "POST /api/v1/users/ HTTP/1.1" 500 144 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:16:33 +0000] "POST /api/v1/users/ HTTP/1.1" 500 143 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:19:37 +0000] "POST /api/v1/users/ HTTP/1.1" 500 141 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:19:58 +0000] "POST /api/v1/users/ HTTP/1.1" 500 138 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:20:44 +0000] "POST /api/v1/users/ HTTP/1.1" 500 126 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:20:53 +0000] "POST /api/v1/users/ HTTP/1.1" 201 273 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:10:21:09 +0000] "POST /api/v1/users/ HTTP/1.1" 201 273 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:13:34 +0000] "POST /api/v1/users/ HTTP/1.1" 201 273 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:22:44 +0000] "POST /api/v1/users/ HTTP/1.1" 201 326 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:24:22 +0000] "POST /api/v1/users/ HTTP/1.1" 500 125 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:24:27 +0000] "POST /api/v1/users/ HTTP/1.1" 500 128 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:24:35 +0000] "POST /api/v1/users/ HTTP/1.1" 500 129 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:24:41 +0000] "POST /api/v1/users/ HTTP/1.1" 500 129 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:24:56 +0000] "POST /api/v1/users/ HTTP/1.1" 500 125 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:25:11 +0000] "POST /api/v1/users/ HTTP/1.1" 500 126 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:25:17 +0000] "POST /api/v1/users/ HTTP/1.1" 500 128 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:27:30 +0000] "POST /api/v1/users/ HTTP/1.1" 500 124 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:11:28:06 +0000] "POST /api/v1/users/ HTTP/1.1" 201 327 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:14:04:50 +0000] "POST /api/v1/users/ HTTP/1.1" 500 128 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:14:05:19 +0000] "POST /api/v1/users/ HTTP/1.1" 500 129 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:14:05:33 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:14:06:47 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:14:11:47 +0000] "POST /api/v1/users/ HTTP/1.1" 201 321 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:17:23 +0000] "POST /api/v1/users/ HTTP/1.1" 201 321 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:17:44 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:18:22 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:18:36 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:20:15 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:22:01 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:22:10 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:23:58 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:25:24 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:25:52 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:27:37 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:31:56 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:32:03 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:33:15 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:33:22 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:36:45 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:36:52 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:40:55 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:41:02 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:43:50 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:44:36 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:48:12 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:48:22 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 86 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:48:35 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 86 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:48:41 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:15:55:26 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:14:48 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:14:55 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:22:57 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:24:39 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:26:47 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:32:14 +0000] "POST /api/v1/users/ HTTP/1.1" 201 317 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:34:53 +0000] "GET /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:39:04 +0000] "GET /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:41:56 +0000] "GET /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:43:30 +0000] "GET /api/v1/users/login HTTP/1.1" 500 74 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:43:52 +0000] "GET /api/v1/users/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:44:54 +0000] "GET /api/v1/users/login HTTP/1.1" 200 104 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:45:34 +0000] "GET /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:47:44 +0000] "GET /api/v1/users/login HTTP/1.1" 500 67 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:16:48:03 +0000] "GET /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:18:02 +0000] "GET /api/v1/users/login HTTP/1.1" 200 314 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:18:08 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:18:17 +0000] "GET /api/v1/users/login HTTP/1.1" 500 91 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:18:30 +0000] "GET /api/v1/users/login HTTP/1.1" 500 91 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:19:19 +0000] "GET /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:19:25 +0000] "GET /api/v1/users/login HTTP/1.1" 500 91 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:20:06 +0000] "GET /api/v1/users/login HTTP/1.1" 200 312 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:20:14 +0000] "GET /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:17:20:22 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.0"
+

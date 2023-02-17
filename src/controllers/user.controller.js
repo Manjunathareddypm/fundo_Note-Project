@@ -20,5 +20,25 @@ export const newRegistration = async (req, res, next) => {
   }
 };
 
+/**
+ * Controller to login a  user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const userLogin = async (req, res, next) => {
+  try {
+    const data = await UserService.userLogin(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User Login successfully'
+    })
+  } catch (error) {
+    next(error)
+  }
+}
+
 
 
