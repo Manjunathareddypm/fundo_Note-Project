@@ -7,9 +7,9 @@ import * as UserService from '../services/user.service';
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newRegistation = async (req, res, next) => {
+export const newRegistration = async (req, res, next) => {
   try {
-    const data = await UserService.newRegistation(req.body);
+    const data = await UserService.newRegistration(req.body);
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
