@@ -1,0 +1,122 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T02:26:39.571Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-17T02:27:09.592Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T02:28:08.909Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:28:38.921Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T02:30:22.418Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:30:52.430Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T02:36:45.464Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:37:15.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:38:04.826Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:38:34.849Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:40:10.576Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:40:10.593Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:47:12.626Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:47:12.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:49:42.984Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:49:42.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:50:21.797Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:50:21.813Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:50:39.588Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:50:39.602Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:51:56.734Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:51:56.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:53:04.358Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:53:04.385Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:55:06.217Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:55:06.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:57:03.242Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:57:03.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:57:26.848Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:57:26.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:59:01.285Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:59:01.300Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:33:49)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T02:59:06.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T02:59:53.985Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T02:59:54.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:00:19.704Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:00:19.721Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:00:34.292Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:00:34.307Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:33:49)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T03:00:47.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:01:16.525Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:01:16.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:24:26.075Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:24:26.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T03:42:59.784Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T03:42:59.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-17T04:01:37.255Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T04:01:37.273Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:45:29.832Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:46:09.650Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:46:58.839Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:46:58.872Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:14.991Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:15.038Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:20.150Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:20.166Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:25.918Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:25.934Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:31.827Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:31.841Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:37.335Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:37.351Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:43.078Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:43.093Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T05:50:48.485Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T05:50:48.502Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T06:04:15.638Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:04:15.655Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:16.330Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:26.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:37.354Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T06:10:03.375Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:10:03.390Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T06:14:14.820Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:14:14.835Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:15:13.167Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-17T06:16:27.838Z"}
+info: Connected to the database. {"timestamp":"2023-02-17T06:16:27.855Z"}

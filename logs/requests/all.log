@@ -1,0 +1,290 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Feb 16 2023 16:24:46 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":30311.343},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19007967,"external":20543372,"heapTotal":92237824,"heapUsed":59079880,"rss":134545408},"pid":7712,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Thu Feb 16 2023 16:25:18 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":30343.281},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19189110,"external":20725242,"heapTotal":86769664,"heapUsed":67337296,"rss":131764224},"pid":26104,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [16/Feb/2023:10:56:28 +0000] "POST /api/v1/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:14:44 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:17:41 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:18:56 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:22:03 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:23:34 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:24:42 +0000] "POST /api/v1/users/user HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:24:59 +0000] "POST /api/v1/users/user HTTP/1.1" 201 301 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:25:09 +0000] "POST /api/v1/users/user HTTP/1.1" 500 96 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:25:19 +0000] "POST /api/v1/users/user HTTP/1.1" 400 75 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:25:35 +0000] "POST /api/v1/users/user HTTP/1.1" 400 75 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:55:07 +0000] "POST /api/v1/users/user HTTP/1.1" 500 84 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:11:55:18 +0000] "POST /api/v1/users/user HTTP/1.1" 500 84 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:17:00 +0000] "POST /api/v1/users/user HTTP/1.1" 500 80 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:26:18 +0000] "POST /api/v1/users/user HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:28:26 +0000] "POST /api/v1/users/user HTTP/1.1" 201 302 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:29:58 +0000] "POST /api/v1/users/user HTTP/1.1" 500 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:30:12 +0000] "POST /api/v1/users/user HTTP/1.1" 201 302 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:31:21 +0000] "POST /api/v1/users/user HTTP/1.1" 201 302 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:31:34 +0000] "POST /api/v1/users/user HTTP/1.1" 201 302 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:13:58:18 +0000] "POST /api/v1/users/user HTTP/1.1" 500 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:14:05:17 +0000] "POST /api/v1/users/user HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:14:08:32 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:47:50 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:48:17 +0000] "GET /api/v1/users/login HTTP/1.1" 400 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:51:32 +0000] "GET /api/v1/users/login HTTP/1.1" 400 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:51:44 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:54:52 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:55:33 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:55:45 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:59:32 +0000] "POST /api/v1/users/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:15:59:59 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:00:23 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:00:58 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:02:32 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:09:02 +0000] "POST /api/v1/users/newuser HTTP/1.1" 201 270 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:09:25 +0000] "GET /api/v1/users/63ee551d6c1faf4e4cb0d6e9 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:09:33 +0000] "GET /api/v1/users/login HTTP/1.1" 400 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:10:08 +0000] "GET /api/v1/users/login/mrdfsa@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:10:30 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:11:53 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:12:30 +0000] "GET /api/v1/users/newuser/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:12:47 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 66 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:17:26 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 201 304 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:17:49 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:20:19 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 201 268 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:20:54 +0000] "GET /api/v1/users/abcd@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:16:21:09 +0000] "GET /api/v1/users/login/abcd@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:05:45 +0000] "GET /api/v1/users/login/abcd@gmail.com HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:06:43 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:06:55 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:12:41 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:17:45 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:24:31 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 201 268 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [16/Feb/2023:17:25:23 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 501 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [17/Feb/2023:02:42:24 +0000] "POST /api/v1/users/user/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:42:50 +0000] "POST /api/v1/users/newuser/ HTTP/1.1" 201 268 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:44:22 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:44:32 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:44:53 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:45:00 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:48:36 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:49:51 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:50:30 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:50:59 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:51:08 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 69 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:52:41 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:53:17 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:53:23 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:55:13 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:55:20 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:56:27 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:57:08 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:57:28 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:57:34 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:57:41 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:59:06 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 86 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:02:59:16 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:00:22 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:00:40 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:00:47 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 86 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:01:42 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:01:48 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:03:13 +0000] "GET /api/v1/users/login/ HTTP/1.1" 400 68 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:03:19 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:03:44:39 +0000] "GET /api/v1/users/login/ HTTP/1.1" 200 263 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Feb 17 2023 11:15:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13472.078},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19272416,"external":20807821,"heapTotal":92766208,"heapUsed":55307616,"rss":131973120},"pid":26016,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:16:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13511.937},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19068609,"external":20604741,"heapTotal":86769664,"heapUsed":65538576,"rss":129351680},"pid":560,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [17/Feb/2023:05:49:53 +0000] "POST /api/v1/users// HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:05:50:01 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:05:51:17 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:04:29 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:05:16 +0000] "POST /api/v1/users/ HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:05:26 +0000] "POST /api/v1/users/ HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:05:37 +0000] "POST /api/v1/users/ HTTP/1.1" 500 66 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:05:43 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:10:23 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [17/Feb/2023:06:14:22 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:45:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15255.453},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19068613,"external":20604745,"heapTotal":86769664,"heapUsed":65372016,"rss":129929216},"pid":22964,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+info: ::1 - - [17/Feb/2023:06:17:19 +0000] "POST /api/v1/users/ HTTP/1.1" 201 277 "-" "PostmanRuntime/7.31.0"
+

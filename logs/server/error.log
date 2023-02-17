@@ -1,0 +1,698 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Thu Feb 16 2023 16:24:46 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":30311.328},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18995709,"external":20531074,"heapTotal":92237824,"heapUsed":58903344,"rss":134459392},"pid":7712,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-16T10:54:46.392Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Thu Feb 16 2023 16:25:18 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":30343.234},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19178532,"external":20714624,"heapTotal":86769664,"heapUsed":67215328,"rss":130351104},"pid":26104,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-16T10:55:18.313Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 8 characters long 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T11:24:42.367Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" length must be at least 8 characters long 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T11:25:09.003Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.symbol(...).string is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:7:25)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T11:55:07.568Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.symbol(...).string is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:7:25)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T11:55:18.913Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.allow(...).min is not a function
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:7:45)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T13:17:00.498Z"}
+error: Could not connect to the database. Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"ReplicaSetNoPrimary"},"stack":"MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-16T13:18:02.943Z"}
+error: 
+    status - 500 
+    message - ReferenceError: Regex is not defined
+    at newUserValidator (C:\FundoNote\fundo-app\src\validators\/user.validator.js:7:38)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T13:26:18.082Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T13:29:58.842Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is required 
+    url - /api/v1/users/user 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T13:58:18.804Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T15:55:33.399Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T15:55:45.872Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 45
+    at JSON.parse (<anonymous>)
+    at parse (C:\FundoNote\fundo-app\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T15:55:53.342Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T16:00:23.267Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T16:00:58.617Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T16:02:32.782Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:32:46)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getUser (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:29:21)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-16T16:17:49.519Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/newuser/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-16T17:17:45.158Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-17T02:27:09.592Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:28:38.921Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:30:52.430Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:37:15.470Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\FundoNote\\fundo-app\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12","timestamp":"2023-02-17T02:38:34.849Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:33:49)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T02:59:06.800Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\FundoNote\fundo-app\src\controllers\/user.controller.js:33:49)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-17T03:00:47.550Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Feb 17 2023 11:15:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13472.062},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19260156,"external":20795521,"heapTotal":92766208,"heapUsed":55149192,"rss":131932160},"pid":26016,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-17T05:45:29.747Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:16:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":13511.937},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19058035,"external":20594127,"heapTotal":86507520,"heapUsed":65158944,"rss":128520192},"pid":560,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-17T05:46:09.615Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:16.330Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:26.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-17T06:05:37.354Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Fri Feb 17 2023 11:45:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15255.453},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19058035,"external":20594127,"heapTotal":86507520,"heapUsed":64992560,"rss":129220608},"pid":22964,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-17T06:15:13.131Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
