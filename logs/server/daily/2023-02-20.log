@@ -1,0 +1,235 @@
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T02:55:00.570Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T02:55:00.642Z"}
+error: 
+    status - 500 
+    message - Error: incorrect password 
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:23:15)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T02:55:06.926Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:33:43.860Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:33:43.950Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:34:14.791Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "987654321" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:36:24.167Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:37:12.061Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:37:12.116Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:38:19.103Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:38:19.182Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:38:47.256Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:38:47.330Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:39:25.023Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:39:25.096Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:40:13.439Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:40:13.511Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:41:36.619Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:41:36.712Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:42:15.664Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:42:15.737Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:43:18.956Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:43:19.276Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:45:55.404Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:45:55.466Z"}
+error: 
+    status - 500 
+    message - ReferenceError: req is not defined
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:8:14)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:46:04.613Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:46:42.895Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:46:43.006Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:48:19.898Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:48:19.947Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:49:36.023Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:49:36.089Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:51:06.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:51:06.743Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T05:57:07.596Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T05:57:07.653Z"}
+error: 
+    status - 500 
+    message - TypeError: res.status is not a function
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:20:9)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T05:57:14.592Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:00:50.248Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:00:50.431Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:23:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:01:00.474Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:01:52.157Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:01:52.233Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:02:41.849Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:02:41.922Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:10:10)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:03:06.116Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:10:10)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:03:17.488Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:05:19.911Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:05:19.983Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:10:10)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:05:36.967Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:06:54.667Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:06:54.727Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:10:10)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:07:01.723Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:08:15.962Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:08:16.041Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'email')
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:11:10)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:08:22.989Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:12:25.991Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:12:26.058Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:14:09.787Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:14:09.845Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\FundoNote\fundo-app\src\services\/user.service.js:25:13)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T06:14:26.075Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:15:04.509Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:15:04.586Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:23:37.567Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:23:37.675Z"}
+info: Server started at http://localhost:5000/api/v1/ {"timestamp":"2023-02-20T06:31:23.939Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T06:31:24.201Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:45:04.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:46:29.367Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:46:29.413Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:50:44.428Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:50:44.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:52:22.391Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:52:22.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:55:17.914Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:55:17.960Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "manju" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T08:55:34.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:56:17.020Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:56:17.075Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:57:54.828Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:57:54.873Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T08:58:12.595Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T08:58:12.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:00:25.732Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:00:25.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:00:52.596Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:00:52.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:01:01.717Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:01:01.755Z"}
