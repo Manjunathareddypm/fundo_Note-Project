@@ -2191,3 +2191,48 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T0
 info: Connected to the database. {"timestamp":"2023-02-20T09:00:52.645Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:01:01.717Z"}
 info: Connected to the database. {"timestamp":"2023-02-20T09:01:01.755Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:08:12.334Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:08:12.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:08:39.798Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:08:39.857Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "98765432" fails to match the required pattern: /^[a-z]{1,8}[A-Z]{1,1}[0-9]{1,2}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T09:08:58.132Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdA9876543" fails to match the required pattern: /^[a-z]{1,8}[A-Z]{1,1}[0-9]{1,2}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T09:09:14.112Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "asdA98765" fails to match the required pattern: /^[a-z]{1,8}[A-Z]{1,1}[0-9]{1,2}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T09:09:22.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:10:14.024Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:10:14.076Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:11:46.956Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:11:47.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:13:24.672Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:13:24.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:13:56.076Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:13:56.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:15:26.922Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:15:26.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:16:37.889Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:16:37.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:16:57.774Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:16:57.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:17:48.146Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:17:48.191Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:20:17.577Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:20:17.945Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T09:22:03.490Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T09:22:03.534Z"}

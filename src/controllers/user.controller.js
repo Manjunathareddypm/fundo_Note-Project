@@ -8,21 +8,13 @@ import * as UserService from '../services/user.service';
  * @param {Function} next
  */
 export const newRegistration = async (req, res, next) => {
-  try {
     const data = await UserService.newRegistration(req.body);
-    res.status(HttpStatus.CREATED).json({
-      code: HttpStatus.CREATED,
-      data: data,
-      message: "User Created succefully"
-    })
-  } catch (error) {
-    res.status(HttpStatus.BAD_REQUEST).json({
-      code: HttpStatus.BAD_REQUEST,
-      data: "data",
-      message: 'User already registered'
-  })
-}};
-
+    res.status(data.code).json({
+      code: data.code,
+      data: data.data,
+      message: data.message
+    });
+}
 
 
 
