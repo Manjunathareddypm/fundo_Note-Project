@@ -8,16 +8,12 @@ import * as UserService from '../services/user.service';
  * @param {Function} next
  */
 export const newRegistration = async (req, res, next) => {
-  try {
     const data = await UserService.newRegistration(req.body);
-    res.status(HttpStatus.CREATED).json({
-      code: HttpStatus.CREATED,
-      data: data,
-      message: 'User Registered successfully'
+    res.status(data.code).json({
+      code: data.code,
+      data: data.data,
+      message: data.message
     });
-  } catch (error) {
-    next(error);
-  }
 };
 
 /**
@@ -39,7 +35,12 @@ export const userLogin = async (req, res, next) => {
     next(error)
   }
 }
+export const getAll = async (req,res) => {
+const data = await UserService.getAll()
+res.status(HttpStatus.ok).josn({
+data: data
+
+})
+}
 
 
-
-//

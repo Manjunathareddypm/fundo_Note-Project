@@ -478,3 +478,319 @@ info: ::1 - - [17/Feb/2023:17:20:14 +0000] "GET /api/v1/users/login HTTP/1.1" 50
 
 info: ::1 - - [17/Feb/2023:17:20:22 +0000] "GET /api/v1/users/login HTTP/1.1" 500 54 "-" "PostmanRuntime/7.31.0"
 
+error: uncaughtException: listen EADDRINUSE: address already in use :::5000
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\FundoNote\fundo-app\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 20 2023 15:39:31 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":5000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26452.687},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18640804,"external":20176209,"heapTotal":92946432,"heapUsed":53753216,"rss":131821568},"pid":24696,"uid":null,"version":"v18.13.0"},"stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:1733:16)\n    at listenInCluster (node:net:1781:12)\n    at Server.listen (node:net:1869:7)\n    at Function.listen (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1733,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1781,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1869,"method":"listen","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:10:22:03 +0000] "GET /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:26:42 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:26:57 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:34:08 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:46:14 +0000] "GET /api/v1/users/login/ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:46:23 +0000] "POST /api/v1/users/login/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:50:53 +0000] "POST /api/v1/users/ HTTP/1.1" 500 126 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:51:02 +0000] "POST /api/v1/users/ HTTP/1.1" 201 316 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:52:22 +0000] "POST /api/v1/users/ HTTP/1.1" 201 318 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:53:37 +0000] "POST /api/v1/users/ HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:10:53:49 +0000] "POST /api/v1/users/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:11:27:45 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:11:27:52 +0000] "GET /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:10:46 +0000] "GET /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:11:46 +0000] "GET /api/v1/users/login HTTP/1.1" 200 206 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:22:10 +0000] "GET /api/v1/users/login HTTP/1.1" 500 53 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:23:02 +0000] "GET /api/v1/users/login HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:25:25 +0000] "GET /api/v1/users/login HTTP/1.1" 200 48 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:26:09 +0000] "GET /api/v1/users/login HTTP/1.1" 200 474 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:13:28:33 +0000] "POST /api/v1/users/ HTTP/1.1" 201 481 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: userNote is not defined
+ReferenceError: userNote is not defined
+    at routes (C:\FundoNote\fundo-app\src\routes\/index.js:13:23)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 20 2023 19:34:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":40555.687},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19069482,"external":20585792,"heapTotal":92217344,"heapUsed":58656472,"rss":132149248},"pid":10968,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: userNote is not defined\n    at routes (C:\\FundoNote\\fundo-app\\src\\routes\\/index.js:13:23)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":23,"file":"C:\\FundoNote\\fundo-app\\src\\routes\\/index.js","function":"routes","line":13,"method":null,"native":false},{"column":38,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: userNote is not defined
+ReferenceError: userNote is not defined
+    at routes (C:\FundoNote\fundo-app\src\routes\/index.js:13:23)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 20 2023 19:35:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":40581.906},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19285703,"external":20802013,"heapTotal":92741632,"heapUsed":61630200,"rss":131743744},"pid":4296,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: userNote is not defined\n    at routes (C:\\FundoNote\\fundo-app\\src\\routes\\/index.js:13:23)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":23,"file":"C:\\FundoNote\\fundo-app\\src\\routes\\/index.js","function":"routes","line":13,"method":null,"native":false},{"column":38,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:14:06:29 +0000] "GET /api/v1/users/get HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:08:48 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:08:55 +0000] "GET /api/v1/users/get HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:09:04 +0000] "GET /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:09:37 +0000] "GET /api/v1/users/login HTTP/1.1" 200 476 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:10:22 +0000] "GET /api/v1/users/get HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:41:52 +0000] "GET /api/v1/users/get HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:14:42:30 +0000] "GET /api/v1/users/get HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:03:15 +0000] "POST /api/v1/users/ HTTP/1.1" 400 61 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:03:26 +0000] "POST /api/v1/users/ HTTP/1.1" 201 324 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:06:11 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:06:22 +0000] "GET /api/v1/users/login HTTP/1.1" 200 478 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:06:27 +0000] "GET /api/v1/users/login HTTP/1.1" 200 478 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:15:07:28 +0000] "GET /api/v1/users/get HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (C:\FundoNote\fundo-app\src\routes\/index.js:13:23)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\FundoNote\fundo-app\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 20 2023 22:08:59 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":49820.343},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19106154,"external":20622464,"heapTotal":93528064,"heapUsed":58706832,"rss":131887104},"pid":28164,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (C:\\FundoNote\\fundo-app\\src\\routes\\/index.js:13:23)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":23,"file":"C:\\FundoNote\\fundo-app\\src\\routes\\/index.js","function":"routes","line":13,"method":null,"native":false},{"column":38,"file":"C:\\FundoNote\\fundo-app\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:16:56:38 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:16:56:57 +0000] "POST /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:16:58:25 +0000] "POST /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:16:58:30 +0000] "POST /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:16:58:53 +0000] "POST /api/v1/note/ HTTP/1.1" 201 150 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:01:12 +0000] "POST /api/v1/note/ HTTP/1.1" 500 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:01:35 +0000] "POST /api/v1/note/ HTTP/1.1" 500 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:01:45 +0000] "POST /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:02:03 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:11:00 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:20:53 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:21:18 +0000] "POST /api/v1/note/ HTTP/1.1" 201 150 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:21:29 +0000] "GET /api/v1/note/get HTTP/1.1" 202 238 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:21:56 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:23:00 +0000] "GET /api/v1/users/get HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:23:12 +0000] "GET /api/v1/users/login HTTP/1.1" 200 476 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:23:36 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:23:57 +0000] "POST /api/v1/note/ HTTP/1.1" 500 52 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:27:29 +0000] "POST /api/v1/note/ HTTP/1.1" 201 150 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:27:37 +0000] "POST /api/v1/note/ HTTP/1.1" 201 150 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:27:50 +0000] "GET /api/v1/note/get HTTP/1.1" 202 426 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:28:40 +0000] "GET /api/v1/note/get HTTP/1.1" 202 426 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:29:09 +0000] "POST /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:29:16 +0000] "POST /api/v1/note/ HTTP/1.1" 201 150 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:29:40 +0000] "GET /api/v1/note/get HTTP/1.1" 202 520 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:30:35 +0000] "GET /api/v1/note/get HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:30:43 +0000] "GET /api/v1/note/get HTTP/1.1" 202 520 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:32:18 +0000] "GET /api/v1/note/get HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:32:23 +0000] "GET /api/v1/note/get HTTP/1.1" 202 520 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:51:39 +0000] "POST /api/v1/note/ HTTP/1.1" 201 151 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:52:04 +0000] "GET /api/v1/note/get HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:53:35 +0000] "GET /api/v1/note/get HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:53:44 +0000] "GET /api/v1/note/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:53:50 +0000] "GET /api/v1/note/63f3b32b5fa4c217e05f9beb HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:56:16 +0000] "GET /api/v1/note/63f3b32b5fa4c217e05f9beb HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:56:23 +0000] "GET /api/v1/note/ HTTP/1.1" 202 615 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:57:27 +0000] "GET /api/v1/note/63f3a6cc0c58276bcce9faaf HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:57:40 +0000] "GET /api/v1/note/ HTTP/1.1" 400 56 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:17:59:49 +0000] "GET /api/v1/note/ HTTP/1.1" 202 615 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:00:12 +0000] "GET /api/v1/note/63f3b32b5fa4c217e05f9beb HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:00:34 +0000] "PUT /api/v1/note/63f3b32b5fa4c217e05f9beb HTTP/1.1" 400 40 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: UserService is not defined
+ReferenceError: UserService is not defined
+    at _callee5$ (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:50)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteNote (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:26)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 20 2023 23:30:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54728.5},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18320433,"external":19853707,"heapTotal":53157888,"heapUsed":48913400,"rss":93458432},"pid":28588,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: UserService is not defined\n    at _callee5$ (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:50)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at deleteNote (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:26)\n    at Layer.handle [as handle_request] (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":50,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"_callee5$","line":104,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":26,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"deleteNote","line":104,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:18:02:49 +0000] "POST /api/v1/note/ HTTP/1.1" 201 158 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:02:59 +0000] "GET /api/v1/note/ HTTP/1.1" 202 717 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:03:13 +0000] "POST /api/v1/note/63f3b5c92817915304a95d38 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:03:28 +0000] "GET /api/v1/note/63f3b5c92817915304a95d38 HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:03:40 +0000] "PUT /api/v1/note/63f3b5c92817915304a95d38 HTTP/1.1" 400 40 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: UserService is not defined
+ReferenceError: UserService is not defined
+    at _callee5$ (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:50)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteNote (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:26)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 20 2023 23:33:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":54908.484},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18321857,"external":19855131,"heapTotal":53420032,"heapUsed":49401528,"rss":95035392},"pid":21252,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: UserService is not defined\n    at _callee5$ (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:50)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at deleteNote (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:26)\n    at Layer.handle [as handle_request] (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":50,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"_callee5$","line":104,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":26,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"deleteNote","line":104,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:18:06:38 +0000] "POST /api/v1/note/ HTTP/1.1" 201 159 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:06:51 +0000] "GET /api/v1/note/ HTTP/1.1" 202 820 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:07:08 +0000] "GET /api/v1/note/63f3b6ae0318e65464fd88aa HTTP/1.1" 400 42 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:07:21 +0000] "PUT /api/v1/note/63f3b6ae0318e65464fd88aa HTTP/1.1" 400 40 "-" "PostmanRuntime/7.31.0"
+
+error: uncaughtException: UserService is not defined
+ReferenceError: UserService is not defined
+    at _callee5$ (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:50)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at deleteNote (C:\FundoNote\fundo-app\src\controllers\/note.controller.js:104:26)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Mon Feb 20 2023 23:37:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":55130.187},"process":{"argv":["node","C:\\FundoNote\\fundo-app\\src\\index.js"],"cwd":"C:\\FundoNote\\fundo-app","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18293902,"external":19827176,"heapTotal":54992896,"heapUsed":49103864,"rss":95850496},"pid":21604,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: UserService is not defined\n    at _callee5$ (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:50)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at deleteNote (C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js:104:26)\n    at Layer.handle [as handle_request] (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":50,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"_callee5$","line":104,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":26,"file":"C:\\FundoNote\\fundo-app\\src\\controllers\\/note.controller.js","function":"deleteNote","line":104,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"C:\\FundoNote\\fundo-app\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"C:\\FundoNote\\fundo-app\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\FundoNote\\fundo-app\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [20/Feb/2023:18:10:31 +0000] "POST /api/v1/note/ HTTP/1.1" 201 159 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:10:40 +0000] "GET /api/v1/note/ HTTP/1.1" 202 923 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:10:51 +0000] "GET /api/v1/note/63f3b797f87da750dcaa0509 HTTP/1.1" 202 155 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:11:03 +0000] "PUT /api/v1/note/63f3b797f87da750dcaa0509 HTTP/1.1" 202 168 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [20/Feb/2023:18:11:11 +0000] "DELETE /api/v1/note/63f3b797f87da750dcaa0509 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.31.0"
+

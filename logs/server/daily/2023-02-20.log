@@ -1,0 +1,927 @@
+info: Connected to the database. {"timestamp":"2023-02-20T10:09:31.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:09:58.502Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:09:58.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:10:05.520Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:10:05.538Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:10:17.689Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:10:17.705Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:21:55.535Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:21:55.551Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:39:11)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:22:03.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:23:42.172Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:23:42.190Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:24:35.444Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:24:35.464Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:42:23)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:26:42.703Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:42:23)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:26:57.709Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:42:23)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:34:08.627Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:46:09.136Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:46:09.154Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:42:23)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:46:14.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:48:29.809Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:48:29.824Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Raja123" fails to match the required pattern: /^[a-zA-Z0-9]{8}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T10:50:53.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:51:56.356Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:51:56.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T10:53:17.656Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T10:53:17.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T11:27:34.311Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T11:27:34.327Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:42:23)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T11:27:52.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:09:15.992Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:09:16.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:10:07.559Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:10:07.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:10:40.193Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:10:40.243Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:39:11)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T13:10:46.242Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:11:42.118Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:11:42.185Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:22:00.004Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:22:00.055Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee2$ (C:\FundoNote\fundo-app\src\services\/user.service.js:37:11)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T13:22:10.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:22:58.801Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:22:58.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:25:15.932Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:25:16.000Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:26:06.054Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:26:06.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:27:05.022Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:27:05.077Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:27:38.333Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:27:38.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:27:56.087Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:27:56.149Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:30:13.505Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:30:13.572Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:42:12.026Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:42:12.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T13:54:33.194Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T13:54:33.353Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T14:04:34.971Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T14:05:01.206Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T14:05:25.624Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T14:05:25.707Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/get 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T14:06:29.522Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/get 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T14:08:55.628Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T14:10:22.091Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/get 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T14:41:52.777Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T14:42:30.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T15:02:00.674Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T15:02:00.688Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T15:07:28.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T15:41:05.345Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T15:41:05.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T15:54:31.635Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T15:54:31.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T15:54:45.510Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T15:54:45.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T15:55:33.325Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T15:55:33.405Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:16:33.497Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:16:33.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:29:42.154Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:29:42.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:36:14.932Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:36:15.007Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:36:26.777Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:36:26.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:38:42.398Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:38:42.443Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:38:59.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:55:18.801Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:55:18.840Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T16:56:38.344Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-20T16:56:57.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:58:17.578Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:58:17.594Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-20T16:58:25.299Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-20T16:58:30.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:58:47.373Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:58:47.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T16:59:49.967Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T16:59:49.985Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:01:12.964Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:01:35.394Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-20T17:01:45.420Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:02:03.601Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:11:00.670Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:20:53.706Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:21:14.032Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:21:14.049Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:21:46.801Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:21:46.838Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:21:56.233Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/get 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:23:00.199Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:23:36.941Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\FundoNote\fundo-app\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:22:32)
+    at tryCatch (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\FundoNote\fundo-app\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\FundoNote\fundo-app\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (C:\FundoNote\fundo-app\src\validators\/note.validator.js:13:9)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\FundoNote\fundo-app\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\FundoNote\fundo-app\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\FundoNote\fundo-app\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:328:13)
+    at C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\FundoNote\fundo-app\node_modules\express\lib\router\index.js:280:10)
+    at C:\FundoNote\fundo-app\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:231:16)
+    at done (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\FundoNote\fundo-app\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-20T17:23:57.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:27:19.015Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:27:19.037Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:28:57.176Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:28:57.297Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-20T17:29:09.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:30:22.875Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:30:22.898Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/get 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T17:30:35.606Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:32:12.488Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:32:12.504Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/get 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T17:32:18.928Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:46:40.004Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:46:40.018Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:50:35.835Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:50:35.850Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:55:31.283Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:55:31.304Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-20T17:57:40.403Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T17:58:12.526Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T17:58:12.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:02:20.248Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:02:20.277Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:02:25.651Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:02:25.667Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:02:31.751Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:02:31.767Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:06:22.156Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:06:22.244Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:08:52.276Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:08:52.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:09:33.459Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:09:33.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:10:08.020Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:10:08.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:20:30.733Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:20:30.773Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:20:49.331Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:20:49.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:21:02.213Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:21:02.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:21:43.059Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:21:43.125Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:22:16.372Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:22:16.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-20T18:22:37.267Z"}
+info: Connected to the database. {"timestamp":"2023-02-20T18:22:37.353Z"}

@@ -1,4 +1,5 @@
 import { Schema, model } from 'mongoose';
+import jwt from 'jsonwebtoken';
 
 const userSchema = new Schema(
   {
@@ -14,10 +15,15 @@ const userSchema = new Schema(
     password: {
       type: String
     },
+    token:{
+      type:String
+    }
   },
   {
-    timestamps: true
-  }
-);
+    timestamps: true,
+  })
+
+ 
+
 
 export default model('User', userSchema);
