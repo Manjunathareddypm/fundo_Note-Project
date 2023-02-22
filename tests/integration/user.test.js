@@ -28,7 +28,7 @@ describe('User APIs Test', () => {
 
   describe('GET /users', () => {
     it('should return empty array', (done) => {
-    let inputBody = {
+    let inputBody = {                                                 //body
       "firstName": "Manju",
       "lastName": "Reddy",
       "email":"abcd@gmail.com",
