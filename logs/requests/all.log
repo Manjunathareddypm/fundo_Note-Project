@@ -802,3 +802,7 @@ info: ::1 - - [22/Feb/2023:09:41:46 +0000] "PUT /api/v1/note/63f5e31338650157442
 
 info: ::1 - - [22/Feb/2023:09:41:48 +0000] "PUT /api/v1/note/63f5e3133865015744248b55/trash HTTP/1.1" 202 204 "-" "PostmanRuntime/7.31.0"
 
+info: ::1 - - [22/Feb/2023:09:55:00 +0000] "GET /api/v1/note/63f5e3133865015744248b55 HTTP/1.1" 202 200 "-" "PostmanRuntime/7.31.0"
+
+info: ::1 - - [22/Feb/2023:09:55:17 +0000] "GET /api/v1/note/63f5e3133865015744248b55 HTTP/1.1" 202 200 "-" "PostmanRuntime/7.31.0"
+
