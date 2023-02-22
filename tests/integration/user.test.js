@@ -26,8 +26,8 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  describe('userRegistration', () => {
+    it('should return valid registration', (done) => {
     let inputBody = {                                                 //body
       "firstName": "Manju",
       "lastName": "Reddy",
@@ -44,5 +44,25 @@ describe('User APIs Test', () => {
           done();
         });
     });
+  });
+});
+
+
+describe('userLogin', () => {
+  it('should return valid login', (done) => {
+  let login = {                                                    
+    "email": "abcd@gmail.com",
+    "password": "aA1"
+  }
+    request(app)
+      .get('/api/v1/users/login')
+      .send(login)
+      .end((err, res) => {
+        
+        expect(res.statusCode).to.be.equal(200);
+        //expect(res.body.data).to.be.an('array');
+       
+        done();
+      });
   });
 });
