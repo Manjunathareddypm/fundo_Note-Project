@@ -41,9 +41,9 @@ export const updateNote = async (id, body, userID) => {
   };
 
   //archieve a note
-export const archiveNote = async (id,userID) => {
+export const archiveNote = async (id) => {
   console.log(id);
-  const note = await getNote(id,userID);
+  const note = await getNote(id);
   console.log(note);
   const isArchived = note.archive === false ? true : false;
   const newUser = {
@@ -57,8 +57,8 @@ export const archiveNote = async (id,userID) => {
 };
 
 //trash a note
-export const trashNote = async (id,userID) => {
-  const note = await getNote(id,userID)
+export const trashNote = async (id) => {
+  const note = await getNote(id)
   const isTrash = note.trash === false ? true : false;
   const newUser = {
     title: note.title,
