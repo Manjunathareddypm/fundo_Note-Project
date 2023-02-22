@@ -11,7 +11,6 @@ import * as noteService from '../services/note.service';
 export const createNewNote = async (req, res) => {
     try {
         const data = await noteService.createNewNote(req.body);
-        console.log(data);
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data:data,
@@ -80,6 +79,7 @@ export const getNote = async (req, res) => {
 export const updateNote = async (req, res, next) => {
     try {
       const data = await noteService.updateNote(req.params._id,req.body, req.body.userID);
+      console.log(data);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
@@ -120,7 +120,7 @@ export const updateNote = async (req, res, next) => {
       */
       export const archiveNote = async (req, res) => {
           try {
-           const data = await noteService.archiveNote(req.params._id, req.body.userID);
+           const data = await noteService.archiveNote(req.params._id);
            console.log(data);
            res.status(HttpStatus.ACCEPTED).json({
              code: HttpStatus.ACCEPTED,

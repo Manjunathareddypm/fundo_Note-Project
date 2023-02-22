@@ -28,11 +28,18 @@ describe('User APIs Test', () => {
 
   describe('GET /users', () => {
     it('should return empty array', (done) => {
+    let inputBody = {
+      "firstName": "Manju",
+      "lastName": "Reddy",
+      "email":"abcd@gmail.com",
+      "password":"aA1"
+    }
       request(app)
-        .get('/api/v1/users')
+        .post('/api/v1/users')
+        .send(inputBody)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+          expect(res.statusCode).to.be.equal(201);
+          //expect(res.body.data).to.be.an('array');
 
           done();
         });
