@@ -10,7 +10,7 @@ import * as noteService from '../services/note.service';
 
 export const createNewNote = async (req, res) => {
     try {
-        const data = await noteService.createNewNote(req.body, req.rawHeaders[1]);
+        const data = await noteService.createNewNote(req.body);
         console.log(data);
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
@@ -33,7 +33,7 @@ export const createNewNote = async (req, res) => {
  */
 export const getAllNote = async (req, res) => {
     try {
-        const data = await noteService.getAllNote(req.body, req.rawHeaders[1]);
+        const data = await noteService.getAllNote();
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -56,7 +56,7 @@ export const getAllNote = async (req, res) => {
  */
 export const getNote = async (req, res) => {
     try {
-        const data = await noteService.getNote(req.params._id);
+        const data = await noteService.getNote(req.params._id, req.body._id);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -79,7 +79,7 @@ export const getNote = async (req, res) => {
  */
 export const updateNote = async (req, res, next) => {
     try {
-      const data = await noteService.updateNote(req.params._id);
+      const data = await noteService.updateNote(req.params._id,req.body, req.body.userID);
       res.status(HttpStatus.ACCEPTED).json({
         code: HttpStatus.ACCEPTED,
         data: data,
@@ -103,7 +103,7 @@ export const updateNote = async (req, res, next) => {
    * @param {Function} next
    */
   export const deleteNote = async (req, res, next) => {
-      await noteService.deleteNote(req.params.noteID, req.rawHeaders[1]);
+      await noteService.deleteNote(req.params._id, req.body.userID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: [],
@@ -120,7 +120,7 @@ export const updateNote = async (req, res, next) => {
       */
       export const archiveNote = async (req, res) => {
           try {
-           const data = await noteService.archiveNote(req.params._id);
+           const data = await noteService.archiveNote(req.params._id, req.body.userID);
            console.log(data);
            res.status(HttpStatus.ACCEPTED).json({
              code: HttpStatus.ACCEPTED,
@@ -143,7 +143,7 @@ export const updateNote = async (req, res, next) => {
       */
      export const trashNote = async (req, res) => {
          try {
-           const data = await noteService.trashNote(req.params._id);
+           const data = await noteService.trashNote(req.params._id, req.body.userID);
            res.status(HttpStatus.ACCEPTED).json({
              code: HttpStatus.ACCEPTED,
              data: data,
