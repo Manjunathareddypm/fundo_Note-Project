@@ -31,11 +31,12 @@ export const newRegistration = async (body) => {
 //user Login
 
 export const userLogin = async (body) => {
+  var token;
   const data = await User.findOne({email: body.email})
   if(data){
     const pswd = await bcrypt.compare(body.password, data.password);
     if (pswd) {
-      var token=jwt.sign({EmailId:data.EmailId, id:data._id},
+     token=jwt.sign({EmailId:data.EmailId, id:data._id},
       process.env.SECRET_KEY);
       data.token = token
       return data

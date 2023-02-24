@@ -348,3 +348,13 @@ info: ::1 - - [22/Feb/2023:15:29:18 +0000] "PUT /api/v1/note/63f6342864a64a47d44
 
 info: ::1 - - [22/Feb/2023:15:29:32 +0000] "PUT /api/v1/note/63f6342864a64a47d444a409/trash HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.0"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:18:07:46 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:18:08:25 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:18:08:25 +0000] "GET /api/v1/users/login HTTP/1.1" 400 56 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:18:09:20 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2023:18:09:21 +0000] "GET /api/v1/users/login HTTP/1.1" 200 473 "-" "node-superagent/3.8.3"
+

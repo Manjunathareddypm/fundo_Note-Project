@@ -35,14 +35,6 @@ export const updateNote = async (id, body) => {
     return data;
   };
 
-  
-  
-  
-  //delete single user
-  export const deleteNote = async (id) => { 
-  const data = await note.findByIdAndDelete(id)
-    return data;
-  };
 
   //archieve a note
   export const archiveNote = async (id,userID) => {
@@ -75,4 +67,10 @@ export const trashNote = async (id,userID) => {
 };
 
 
+
+ //delete single user
+  export const deleteNote = async (id) => { 
+  const data = await note.findByIdAndDelete(id)
+    return data;
+  };
 

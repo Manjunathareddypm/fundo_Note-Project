@@ -1,0 +1,1506 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T06:44:12.331Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T06:44:17.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:05:42.485Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:05:52.024Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:05:53.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:07:30.275Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:07:40.056Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:07:41.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:08:00.180Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:08:03.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:12:47.981Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:12:53.379Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:12:56.004Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:15:51.182Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:16:00.957Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:16:02.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:16:45.320Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:16:55.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:19:38.762Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:19:43.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:21:25.526Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:21:35.085Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:21:36.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:22:58.996Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:23:05.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:24:16.023Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:24:21.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:27:38.051Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:27:42.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:29:39.846Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:29:44.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:36:48.532Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:36:57.755Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:36:59.406Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:37:23.011Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:37:31.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:39:00.584Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:39:05.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:40:03.885Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:40:03.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:40:32.039Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:40:32.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:45:31.834Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:45:36.636Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:45:39.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:48:10.817Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:48:20.183Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:48:22.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:49:17.811Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:49:22.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T08:58:59.012Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T08:59:03.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:03:36.340Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:03:46.569Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:03:47.134Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:20:30.344Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:20:35.764Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:20:36.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:21:57.241Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:22:06.763Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:22:08.419Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:22:08.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:31:11.505Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:31:15.793Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:31:17.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:33:02.583Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:33:11.597Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:33:12.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:37:22.708Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:37:28.183Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:42:34.999Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:42:40.215Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:42:43.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:44:10.298Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:44:15.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:46:21.354Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:46:21.483Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:46:21.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:47:50.731Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:47:50.813Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:47:50.875Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:52:08.477Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:52:13.355Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:54:45.503Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:54:49.821Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:56:43.749Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:56:53.306Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:54.893Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:54.986Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:55.018Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/id/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:55.046Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id/ 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:55.097Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:57:28.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:57:37.857Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.494Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.611Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.673Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.741Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id/ 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:00:26.643Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:00:36.382Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:00:37.861Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:00:37.993Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:00:38.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:01:16.600Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:01:25.832Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:01:27.421Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:01:27.571Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:01:27.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:03:49.380Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:03:53.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:05:05.662Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:05:09.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:07:10.229Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:07:14.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:08:38.265Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:08:42.619Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:11:49.404Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:11:54.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:18:52.542Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:18:57.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:19:36.697Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:19:45.868Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:19:47.596Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:19:47.692Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:19:47.731Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:20:09.382Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:20:13.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:21:48.593Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:21:53.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:24:53.715Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:24:58.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:25:48.363Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:25:58.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:27:10.128Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:27:19.705Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:27:21.426Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FUNDOO_NOTE\Fundo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:27:21.542Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:27:21.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:28:20.432Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:28:24.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:29:30.872Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:29:35.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:30:55.218Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:31:05.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:32:09.026Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:32:19.724Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:33:54.620Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:33:59.162Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:36:00.740Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:36:05.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:36:44.221Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:36:54.563Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:38:23.902Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:38:29.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:39:18.310Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:39:28.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:39:45.730Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:39:50.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:47:48.379Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:47:52.906Z"}

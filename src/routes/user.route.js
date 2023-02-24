@@ -10,7 +10,7 @@ const router = express.Router();
 router.post('', newUserValidator, userController.newRegistration);
 
 //route to login
-router.get('/login', userAuth, userController.userLogin);
+router.post('/login',userAuth, userController.userLogin);
 
 
 export default router;

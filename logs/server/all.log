@@ -961,3 +961,1004 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T1
 info: Connected to the database. {"timestamp":"2023-02-22T15:23:09.786Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T15:24:03.269Z"}
 info: Connected to the database. {"timestamp":"2023-02-22T15:24:03.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:07:41.497Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:07:45.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:08:20.220Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:08:24.111Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-22T18:08:25.596Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:62:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Wed Feb 22 2023 23:38:25 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":53721.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19508991,"external":20478448,"heapTotal":96043008,"heapUsed":60479544,"rss":136781824},"pid":3112,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-22T18:08:25.630Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:09:15.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:09:19.336Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T06:44:12.331Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T06:44:17.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:05:42.485Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:05:52.024Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:05:53.950Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:35:53 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14317.703},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18332689,"external":19300830,"heapTotal":54489088,"heapUsed":49843000,"rss":96403456},"pid":14444,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:05:53.966Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:07:30.275Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:07:40.056Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:07:41.581Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:37:41 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14425.343},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18330783,"external":19298924,"heapTotal":54751232,"heapUsed":49834168,"rss":97128448},"pid":16548,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:07:41.602Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:08:00.180Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:08:03.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:12:47.981Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:12:53.379Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:12:56.004Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:95:40)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:42:56 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:95:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14739.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18977147,"external":19946604,"heapTotal":96575488,"heapUsed":57738296,"rss":137277440},"pid":25784,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:95:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:12:56.011Z","trace":[{"column":40,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":95,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:15:51.182Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:16:00.957Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:16:02.366Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:46:02 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14926.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18328622,"external":19296763,"heapTotal":54489088,"heapUsed":49789360,"rss":95936512},"pid":7084,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:16:02.381Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:16:45.320Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:16:55.381Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:46:56 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":14979.734},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18316867,"external":19285008,"heapTotal":53702656,"heapUsed":49520312,"rss":94367744},"pid":17880,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:16:56.001Z","trace":[{"column":40,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:19:38.762Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:19:43.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:21:25.526Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:21:35.085Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:21:36.862Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:51:36 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15260.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18354663,"external":19324120,"heapTotal":92237824,"heapUsed":52963072,"rss":132182016},"pid":18788,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:21:36.902Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:22:58.996Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:23:05.487Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:81:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:53:08 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15351.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317260,"external":19285401,"heapTotal":55799808,"heapUsed":52178352,"rss":97460224},"pid":2620,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:23:08.137Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:24:16.023Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:24:21.166Z"}
+error: uncaughtException: expected 404 to equal 201
+AssertionError: expected 404 to equal 201
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:81:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 12:54:23 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":201,"message":"expected 404 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":15427.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19259241,"external":20228698,"heapTotal":96575488,"heapUsed":57764000,"rss":137232384},"pid":14504,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:24:23.930Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:27:38.051Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:27:42.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:29:39.846Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:29:44.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:36:48.532Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:36:57.755Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:46:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:36:59.406Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 13:06:59 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16183.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18324304,"external":19292445,"heapTotal":55275520,"heapUsed":50314320,"rss":96489472},"pid":17320,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:36:59.424Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:37:23.011Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:37:31.899Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:39:00.584Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:39:05.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:40:03.885Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:40:03.920Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:97:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 13:10:03 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:97:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16367.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19540236,"external":20509673,"heapTotal":95002624,"heapUsed":58844576,"rss":132599808},"pid":8356,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:97:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:40:03.933Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":97,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:40:32.039Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:40:32.073Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:97:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 13:10:32 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:97:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16395.828},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18381944,"external":19351381,"heapTotal":94334976,"heapUsed":48444336,"rss":130850816},"pid":5628,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:97:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:40:32.086Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":97,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:45:31.834Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:45:36.636Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T07:45:39.367Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:95:40)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 13:15:39 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:95:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16703.125},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18969515,"external":19938972,"heapTotal":96313344,"heapUsed":57765720,"rss":137252864},"pid":972,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:95:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:45:39.381Z","trace":[{"column":40,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":95,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:48:10.817Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:48:20.183Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T07:48:22.196Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:61:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 13:18:22 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16865.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18325296,"external":19293437,"heapTotal":56586240,"heapUsed":51661584,"rss":98455552},"pid":18092,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:61:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T07:48:22.208Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":61,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T07:49:17.811Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T07:49:22.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T08:58:59.012Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T08:59:03.213Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:03:36.340Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:03:46.569Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:03:47.134Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:81:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 14:33:47 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":21390.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19267138,"external":20236595,"heapTotal":96317440,"heapUsed":58644752,"rss":136855552},"pid":25460,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:81:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:03:47.152Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":81,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:20:30.344Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:20:35.764Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/ 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-23T09:20:36.462Z"}
+error: uncaughtException: expected 400 to equal 201
+AssertionError: expected 400 to equal 201
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:82:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 14:50:36 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":201,"message":"expected 400 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:82:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":22400.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19647153,"external":20616610,"heapTotal":95006720,"heapUsed":62924456,"rss":137117696},"pid":16004,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 201\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:82:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:20:36.485Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":82,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:21:57.241Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:22:06.763Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:22:08.419Z"}
+error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:62:14)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 14:52:08 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":22492.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19012580,"external":19982037,"heapTotal":96055296,"heapUsed":56946632,"rss":137347072},"pid":20772,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: token is not defined\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:14)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:22:08.473Z","trace":[{"column":14,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:31:11.505Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:31:15.793Z"}
+error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:62:14)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:01:17 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23041.625},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19331774,"external":20301231,"heapTotal":95793152,"heapUsed":58530360,"rss":136634368},"pid":23144,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: token is not defined\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:14)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:31:17.880Z","trace":[{"column":14,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:33:02.583Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:33:11.597Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'token')
+TypeError: Cannot read properties of undefined (reading 'token')
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:62:31)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:03:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23156.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18976719,"external":19946176,"heapTotal":95793152,"heapUsed":56444256,"rss":136871936},"pid":16820,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Cannot read properties of undefined (reading 'token')\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:31)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:33:12.700Z","trace":[{"column":31,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:37:22.708Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:37:28.183Z"}
+error: uncaughtException: token is not defined
+ReferenceError: token is not defined
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:62:14)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:07:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23413.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19219264,"external":20188721,"heapTotal":95793152,"heapUsed":57319088,"rss":137408512},"pid":2604,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: token is not defined\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:62:14)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:37:29.333Z","trace":[{"column":14,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":62,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:42:34.999Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:42:40.215Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:42:43.097Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:100:40)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:12:43 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:100:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23726.859},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19063140,"external":20032597,"heapTotal":96579584,"heapUsed":58472640,"rss":137760768},"pid":5996,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:100:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:42:43.132Z","trace":[{"column":40,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":100,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:44:10.298Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:44:15.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:46:21.354Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:46:21.483Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:116:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:16:21 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:116:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":23945.265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19281848,"external":20251285,"heapTotal":95805440,"heapUsed":55187224,"rss":133492736},"pid":9780,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:116:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:46:21.522Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":116,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:47:50.731Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (D:\FUNDOO_NOTE\Fundo_Note\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FUNDOO_NOTE\Fundo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:284:15
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:365:14)
+    at param (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:421:3)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\FUNDOO_NOTE\Fundo_Note\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:328:13)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\express\lib\router\index.js:280:10)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/:_id 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:47:50.813Z"}
+error: uncaughtException: expected 500 to equal 202
+AssertionError: expected 500 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:116:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:17:50 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":202,"message":"expected 500 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:116:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24034.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18973157,"external":19942594,"heapTotal":96067584,"heapUsed":54430416,"rss":134017024},"pid":18424,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:116:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:47:50.833Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":116,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:52:08.477Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:52:13.355Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:22:16 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24300.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19231446,"external":20200903,"heapTotal":96591872,"heapUsed":58986928,"rss":137150464},"pid":17348,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:52:16.763Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:54:45.503Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:54:49.821Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:24:53 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24456.953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19227055,"external":20196512,"heapTotal":97116160,"heapUsed":58822816,"rss":137809920},"pid":14380,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:54:53.214Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:56:43.749Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:56:53.306Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:56:54.893Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:64:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:26:54 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24578.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19017345,"external":19986802,"heapTotal":96591872,"heapUsed":57455416,"rss":137158656},"pid":5116,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:56:54.932Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":64,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T09:57:28.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T09:57:37.857Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T09:57:39.494Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:64:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:27:39 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24623.281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18353857,"external":19323314,"heapTotal":94597120,"heapUsed":52932432,"rss":134938624},"pid":5384,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T09:57:39.546Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":64,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:00:26.643Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:00:36.382Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:00:37.861Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:64:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:30:37 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24801.656},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19016879,"external":19986336,"heapTotal":96325632,"heapUsed":57357768,"rss":137785344},"pid":24180,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:00:37.921Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":64,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:01:16.600Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:01:25.832Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:01:27.421Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:64:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:31:27 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":24851.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19334891,"external":20304348,"heapTotal":96325632,"heapUsed":58218280,"rss":137510912},"pid":2836,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:64:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:01:27.486Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":64,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:03:49.380Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:03:53.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:05:05.662Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:05:09.878Z"}
+error: uncaughtException: expected 400 to equal 202
+AssertionError: expected 400 to equal 202
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:35:12 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":202,"message":"expected 400 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25076.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18986611,"external":19956068,"heapTotal":96591872,"heapUsed":58522720,"rss":137347072},"pid":21928,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 202\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:05:12.935Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:07:10.229Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:07:14.569Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:37:18 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25202.218},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19060948,"external":20030405,"heapTotal":100261888,"heapUsed":62121936,"rss":139452416},"pid":27596,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:07:18.486Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:08:38.265Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:08:42.619Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:38:45 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25289.343},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19281041,"external":20250498,"heapTotal":96591872,"heapUsed":59365096,"rss":136753152},"pid":4800,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:08:45.609Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:11:49.404Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:11:54.327Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:115:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:41:57 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25481.562},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19231463,"external":20200920,"heapTotal":96591872,"heapUsed":58986624,"rss":137551872},"pid":9868,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:115:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:11:57.827Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":115,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:18:52.542Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:18:57.133Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:117:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:48:59 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25903.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19351570,"external":20321027,"heapTotal":96329728,"heapUsed":59642072,"rss":137105408},"pid":16768,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:18:59.810Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":117,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:19:36.697Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:19:45.868Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:19:47.596Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:65:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:49:47 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:65:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25951.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19016722,"external":19986179,"heapTotal":96591872,"heapUsed":57410064,"rss":137302016},"pid":23960,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:65:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:19:47.631Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":65,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:20:09.382Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:20:13.969Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:117:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:50:17 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":25981.671},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297918,"external":19266059,"heapTotal":53440512,"heapUsed":49192024,"rss":94937088},"pid":26408,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:20:17.933Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":117,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:21:48.593Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:21:53.566Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:117:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:51:56 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26080.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19068942,"external":20038399,"heapTotal":101048320,"heapUsed":62316192,"rss":139616256},"pid":2640,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:117:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:21:56.845Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":117,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:24:53.715Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:24:58.492Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:133:40)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:55:01 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:133:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26265.546},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19351783,"external":20321240,"heapTotal":96591872,"heapUsed":59811280,"rss":137166848},"pid":3732,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:133:40)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:25:01.805Z","trace":[{"column":40,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":133,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:25:48.363Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:25:58.504Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:55:59 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26323.687},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19263425,"external":20232882,"heapTotal":96067584,"heapUsed":58326520,"rss":136536064},"pid":10264,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:25:59.954Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:27:10.128Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:27:19.705Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2023-02-23T10:27:21.426Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:65:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:57:21 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:65:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26405.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18520030,"external":19489487,"heapTotal":91713536,"heapUsed":55869536,"rss":131772416},"pid":13408,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:65:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:27:21.462Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":65,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:28:20.432Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:28:24.998Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:58:28 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26472.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19443840,"external":20413297,"heapTotal":96591872,"heapUsed":61275768,"rss":136806400},"pid":20936,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:28:28.639Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:29:30.872Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:29:35.690Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 15:59:38 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26542.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19266222,"external":20235679,"heapTotal":96591872,"heapUsed":58970736,"rss":137801728},"pid":26644,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:29:38.783Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:30:55.218Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:31:05.585Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:32:09.026Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:32:19.724Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 16:02:21 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26705.312},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19173940,"external":20143397,"heapTotal":96854016,"heapUsed":57881784,"rss":136724480},"pid":3468,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:32:21.583Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:33:54.620Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:33:59.162Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 16:04:02 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26806.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18987365,"external":19956822,"heapTotal":97116160,"heapUsed":58550712,"rss":137052160},"pid":4788,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:34:02.448Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:36:00.740Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:36:05.609Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 16:06:09 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26933.39},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19336760,"external":20306217,"heapTotal":96067584,"heapUsed":59797088,"rss":136933376},"pid":23616,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:36:09.649Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:36:44.221Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:36:54.563Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 16:06:56 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":26979.968},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18301332,"external":19270789,"heapTotal":95121408,"heapUsed":52485120,"rss":134299648},"pid":24216,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:36:56.229Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:38:23.902Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:38:29.398Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\tests\integration\/user.test.js:118:38)
+    at Test.assert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\FUNDOO_NOTE\Fundo_Note\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:2128:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Thu Feb 23 2023 16:08:32 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":27076.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18987331,"external":19956788,"heapTotal":96854016,"heapUsed":58558784,"rss":137523200},"pid":18140,"uid":null,"version":"v18.13.0"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js:118:38)\n    at Test.assert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:2128:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","timestamp":"2023-02-23T10:38:32.702Z","trace":[{"column":38,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\tests\\integration\\/user.test.js","function":null,"line":118,"method":null,"native":false},{"column":6,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":2128,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:39:18.310Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:39:28.774Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:39:45.730Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:39:50.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-23T10:47:48.379Z"}
+info: Connected to the database. {"timestamp":"2023-02-23T10:47:52.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T06:30:05.813Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T06:30:06.141Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T06:30:42.740Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "Manjunatha Reddy" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T06:32:49.863Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "PM" fails to match the required pattern: /^[a-z[A-Z]{3,30}$/ 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T06:33:02.510Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-24T06:36:06.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T06:45:49.373Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T06:45:49.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:06:53.010Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:06:53.088Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:08:36.866Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:08:36.907Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:10:11.629Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:10:11.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:13:36.138Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:13:36.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:13:52.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:13:52.300Z"}
+error: 
+    status - 500 
+    message - Error: Invalid email
+    at _callee2$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:47:13)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-24T08:14:07.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:16:29.432Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:16:29.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:26:46.720Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:26:46.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-24T08:28:26.285Z"}
+info: Connected to the database. {"timestamp":"2023-02-24T08:28:26.346Z"}

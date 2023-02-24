@@ -32,7 +32,10 @@ export const userLogin = async (req, res, next) => {
       message: 'User Login successfully'
     })
   } catch (error) {
-    next(error)
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: 'User Login unsuccessfully'
+    })
   }
 }
 

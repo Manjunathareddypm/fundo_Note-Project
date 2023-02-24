@@ -207,3 +207,16 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T1
 info: Connected to the database. {"timestamp":"2023-02-22T15:23:09.786Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T15:24:03.269Z"}
 info: Connected to the database. {"timestamp":"2023-02-22T15:24:03.287Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:07:41.497Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:07:45.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:08:20.220Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:08:24.111Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2023-02-22T18:08:25.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-22T18:09:15.239Z"}
+info: Connected to the database. {"timestamp":"2023-02-22T18:09:19.336Z"}

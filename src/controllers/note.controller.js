@@ -56,8 +56,8 @@ export const getAllNote = async (req, res) => {
 export const getNote = async (req, res) => {
     try {
         const data = await noteService.getNote(req.params._id, req.body.userID);
-        res.status(HttpStatus.ACCEPTED).json({
-            code: HttpStatus.ACCEPTED,
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
             data: data,
             message: 'displaying all notes'
         })
@@ -80,8 +80,8 @@ export const updateNote = async (req, res, next) => {
     try {
       const data = await noteService.updateNote(req.params._id,req.body, req.body.userID);
       console.log(data);
-      res.status(HttpStatus.ACCEPTED).json({
-        code: HttpStatus.ACCEPTED,
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
         data: data,
         message: 'User updated successfully'
       });
@@ -94,22 +94,6 @@ export const updateNote = async (req, res, next) => {
   };
   
   
-  
-  
-  /**
-   * Controller to delete a note
-   * @param  {object} req - request object
-   * @param {object} res - response object
-   * @param {Function} next
-   */
-  export const deleteNote = async (req, res, next) => {
-      await noteService.deleteNote(req.params._id, req.body.userID);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: [],
-        message: 'Note deleted successfully'
-      });
-    }
 
 
       /**
@@ -120,7 +104,7 @@ export const updateNote = async (req, res, next) => {
       */
       export const archiveNote = async (req, res) => {
           try {
-           const data = await noteService.archiveNote(req.params._id);
+           const data = await noteService.archiveNote(req.params._id, req.body.userID);
            console.log(data);
            res.status(HttpStatus.ACCEPTED).json({
              code: HttpStatus.ACCEPTED,
@@ -156,4 +140,20 @@ export const updateNote = async (req, res, next) => {
            });
          }
        };
+
+
+        /**
+   * Controller to delete a note
+   * @param  {object} req - request object
+   * @param {object} res - response object
+   * @param {Function} next
+   */
+  export const deleteNote = async (req, res, next) => {
+    await noteService.deleteNote(req.params._id, req.body.userID);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: [],
+      message: 'Note deleted successfully'
+    });
+  }
     
