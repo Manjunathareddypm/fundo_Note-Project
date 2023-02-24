@@ -2,6 +2,7 @@ import HttpStatus from 'http-status-codes';
 import User from '../models/user.model';
 const bcrypt = require('bcrypt');
 import jwt from "jsonwebtoken";
+import * as utils from '../utils/user.util';
 
 
 //create new user
@@ -48,4 +49,19 @@ export const userLogin = async (body) => {
     }
   };
   
+  // user forget password
+
+  export const forgetPwd = async (body) => {
+    var token;
+    const data = await User.findOne({email: body.email})
+    if(data){
+       token=jwt.sign({id:data._id, email:data.email },
+        process.env.SECRET_KEY);
+        utils.sendmail(body.email)
+        data.token = token
+        return data
+        } else {
+         console.log('invalid email');
+        }
+    };
 

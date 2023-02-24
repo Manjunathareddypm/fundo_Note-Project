@@ -39,3 +39,26 @@ export const userLogin = async (req, res, next) => {
   }
 }
 
+/**
+ * Controller to login a  user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const forgetPwd = async (req, res, next) => {
+  try {
+    const data = await UserService.forgetPwd(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User go further'
+    })
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: 'error'
+    })
+  }
+}
+
