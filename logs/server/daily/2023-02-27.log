@@ -1,0 +1,49 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T03:14:48.922Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T03:14:49.016Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 60
+    at JSON.parse (<anonymous>)
+    at parse (D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forget 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T03:15:47.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T08:50:01.340Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T08:50:01.851Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "987456@" fails to match the required pattern: /^[a-z]{1,3}[A-Z]{1,1}[0-9]{1,4}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T08:51:22.228Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 61
+    at JSON.parse (<anonymous>)
+    at parse (D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\FUNDOO_NOTE\Fundo_Note\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FUNDOO_NOTE\Fundo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T08:52:27.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T08:54:32.111Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T08:54:32.185Z"}

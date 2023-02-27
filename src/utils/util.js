@@ -1,3 +1,5 @@
+import { gmail } from 'googleapis/build/src/apis/gmail';
+
 const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 
@@ -14,7 +16,7 @@ const oAuth2Client = new google.auth.OAuth2(
 );
 oAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN });
 
-async function sendMail() {
+export async function sendMail(email) {
   try {
     const accessToken = await oAuth2Client.getAccessToken();
 
@@ -35,7 +37,7 @@ async function sendMail() {
       to: 'slvreddy71@gmail.com',
       subject: 'Hello from gmail using API',
       text: 'Hello from gmail email using API',
-      html: '<h1>Hello from gmail email using API</h1>',
+      html: `<h1>Reset password, <a href = http://localhost:3000/api/v1/users/resetPwd> reset</a></h1>`,
     };
 
     const result = await transport.sendMail(mailOptions);
@@ -48,3 +50,4 @@ async function sendMail() {
 sendMail()
   .then((result) => console.log('Email sent...', result))
   .catch((error) => console.log(error.message));
+

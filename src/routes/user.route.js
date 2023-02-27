@@ -13,8 +13,12 @@ router.post('', newUserValidator, userController.newRegistration);
 //route to login
 router.post('/login', userAuth, userController.userLogin);
 
-// route for reset password
+// route for forget password
 router.post('/forgetPwd', userController.forgetPwd);
+
+//route for reset password
+
+router.post('/resetPwd', authorization,  userController.resetPwd)
 
 
 export default router;

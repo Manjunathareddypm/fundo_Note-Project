@@ -1969,3 +1969,222 @@ info: ::1 - - [24/Feb/2023:08:27:58 +0000] "POST /api/v1/users/login HTTP/1.1" 4
 
 info: ::1 - - [24/Feb/2023:08:28:37 +0000] "POST /api/v1/users/login HTTP/1.1" 200 488 "-" "PostmanRuntime/7.31.1"
 
+info: ::1 - - [24/Feb/2023:11:06:42 +0000] "POST /api/v1/users/forgetpwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:09:36 +0000] "POST /api/v1/users/ HTTP/1.1" 400 62 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:09:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 488 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:25:31 +0000] "PUT /api/v1/users/resetpwd HTTP/1.1" 200 333 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:25:52 +0000] "PUT /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:25:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 488 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:26:18 +0000] "POST /api/v1/users/ HTTP/1.1" 500 145 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:26:51 +0000] "PUT /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:26:59 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 333 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:11:27:48 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 281 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:13:22:38 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendmail is not a function
+TypeError: utils.sendmail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:61:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 18:54:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":37923.25},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18499325,"external":21533779,"heapTotal":128954368,"heapUsed":95247544,"rss":174850048},"pid":2160,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendmail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:61:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":61,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:13:25:44 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendmail is not a function
+TypeError: utils.sendmail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:61:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 18:56:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38030.984},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18319997,"external":21350323,"heapTotal":94875648,"heapUsed":88869832,"rss":141254656},"pid":27468,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendmail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:61:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":61,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:61:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 18:57:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":38105.671},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19715543,"external":22749997,"heapTotal":127803392,"heapUsed":105288232,"rss":174780416},"pid":13280,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:61:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":61,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:13:28:46 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 471 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:09:26 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 471 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:09:55 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 471 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:61:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 19:40:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":40649.843},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18412557,"external":21447011,"heapTotal":128954368,"heapUsed":94977696,"rss":175325184},"pid":29588,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:61:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":61,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:14:12:11 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 40 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:60:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 19:42:27 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":40782.078},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18305934,"external":21336260,"heapTotal":95399936,"heapUsed":88829040,"rss":140832768},"pid":23768,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:60:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":60,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:14:14:37 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:15:44 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:17:17 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:18:03 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:18:16 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 40 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:18:52 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:19:06 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:19:15 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:19:22 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:20:03 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:20:31 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:20:40 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:21:13 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:21:21 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:21:54 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:24:31 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:24:36 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:24:42 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:24:49 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:25:29 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:25:31 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:26:44 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:28:34 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 400 30 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:60:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 19:59:45 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":41820.875},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19681501,"external":22715955,"heapTotal":127541248,"heapUsed":104723176,"rss":175157248},"pid":28652,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:60:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":60,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:63:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 20:15:06 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42741.593},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18319996,"external":21350322,"heapTotal":91729920,"heapUsed":85769416,"rss":138039296},"pid":28380,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:63:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":63,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:14:47:29 +0000] "POST /api/v1/users/ HTTP/1.1" 500 132 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:47:43 +0000] "POST /api/v1/users/ HTTP/1.1" 201 319 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:14:47:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 473 "-" "PostmanRuntime/7.31.1"
+
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:63:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 20:19:22 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":42997.406},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18305942,"external":21336268,"heapTotal":92254208,"heapUsed":85799176,"rss":137420800},"pid":19980,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:63:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":63,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: utils.sendMail is not a function
+TypeError: utils.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:63:15)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 20:23:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":43246.14},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18319997,"external":21350323,"heapTotal":88322048,"heapUsed":82078960,"rss":133664768},"pid":25880,"uid":null,"version":"v18.13.0"},"stack":"TypeError: utils.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:63:15)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":15,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":63,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: util.sendMail is not a function
+TypeError: util.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:62:14)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 20:28:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":43543.453},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19048309,"external":22082763,"heapTotal":129167360,"heapUsed":98652904,"rss":176672768},"pid":4792,"uid":null,"version":"v18.13.0"},"stack":"TypeError: util.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:62:14)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":14,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":62,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: googleApi.sendMail is not a function
+TypeError: googleApi.sendMail is not a function
+    at _callee3$ (D:\FUNDOO_NOTE\Fundo_Note\src\services\/user.service.js:62:19)
+    at tryCatch (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FUNDOO_NOTE\Fundo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Feb 24 2023 20:33:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":43820},"process":{"argv":["node","D:\\FUNDOO_NOTE\\Fundo_Note\\src\\index.js"],"cwd":"D:\\FUNDOO_NOTE\\Fundo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19778893,"external":22813347,"heapTotal":127856640,"heapUsed":105272984,"rss":175575040},"pid":10728,"uid":null,"version":"v18.13.0"},"stack":"TypeError: googleApi.sendMail is not a function\n    at _callee3$ (D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js:62:19)\n    at tryCatch (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":19,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\src\\services\\/user.service.js","function":"_callee3$","line":62,"method":null,"native":false},{"column":17,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\FUNDOO_NOTE\\Fundo_Note\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [24/Feb/2023:15:03:59 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 500 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:15:09:42 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 500 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [24/Feb/2023:15:15:09 +0000] "GET /api/v1/users/resetPwd HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [24/Feb/2023:15:15:09 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+
+info: ::1 - - [27/Feb/2023:03:15:19 +0000] "POST /api/v1/users/login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:15:52 +0000] "POST /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:15:58 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 471 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:16:17 +0000] "POST /api/v1/users/resetPwd HTTP/1.1" 404 47 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:16:50 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:17:06 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 333 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:18:28 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 523 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:03:37:14 +0000] "PUT /api/v1/users/resetPwd HTTP/1.1" 200 333 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:51:22 +0000] "POST /api/v1/users/ HTTP/1.1" 500 142 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:51:42 +0000] "POST /api/v1/users/ HTTP/1.1" 201 320 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:51:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 474 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:52:32 +0000] "POST /api/v1/users/forgetPwd HTTP/1.1" 200 502 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:53:12 +0000] "POST /api/v1/users/resetPwd HTTP/1.1" 400 49 "-" "PostmanRuntime/7.31.1"
+
+info: ::1 - - [27/Feb/2023:08:53:27 +0000] "POST /api/v1/users/resetPwd HTTP/1.1" 200 319 "-" "PostmanRuntime/7.31.1"
+
