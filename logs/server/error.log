@@ -1,0 +1,225 @@
+error: uncaughtException: Cannot find module 'swagger-ui-express'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+Error: Cannot find module 'swagger-ui-express'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:19:19)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 27 2023 20:18:25 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\FundoNote\\Fundoo_Note\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3747.859},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18779747,"external":21663994,"heapTotal":136699904,"heapUsed":109224992,"rss":182464512},"pid":10512,"uid":null,"version":"v18.13.0"},"stack":"Error: Cannot find module 'swagger-ui-express'\nRequire stack:\n- D:\\FundoNote\\Fundoo_Note\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:19:19)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-27T14:48:25.931Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":19,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":19,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+Error: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:20:25)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Mon Feb 27 2023 20:19:39 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\FundoNote\\Fundoo_Note\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":3821.593},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18744720,"external":21629239,"heapTotal":177754112,"heapUsed":156811888,"rss":225411072},"pid":17716,"uid":null,"version":"v18.13.0"},"stack":"Error: Cannot find module './swagger.json'\nRequire stack:\n- D:\\FundoNote\\Fundoo_Note\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:20:25)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-27T14:49:39.658Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":25,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: uncaughtException: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+Error: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:20:25)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32) {"date":"Mon Feb 27 2023 20:23:58 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\FundoNote\\Fundoo_Note\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4080.312},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18854392,"external":21738911,"heapTotal":178016256,"heapUsed":156778744,"rss":227348480},"pid":20268,"uid":null,"version":"v18.13.0"},"stack":"Error: Cannot find module './swagger.json'\nRequire stack:\n- D:\\FundoNote\\Fundoo_Note\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:20:25)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)","timestamp":"2023-02-27T14:53:58.378Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":25,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false}]}
+error: uncaughtException: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+Error: Cannot find module './swagger.json'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:20:25)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Feb 27 2023 20:27:52 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\FundoNote\\Fundoo_Note\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":4314.468},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18633545,"external":21516647,"heapTotal":172232704,"heapUsed":147039648,"rss":219357184},"pid":19392,"uid":null,"version":"v18.13.0"},"stack":"Error: Cannot find module './swagger.json'\nRequire stack:\n- D:\\FundoNote\\Fundoo_Note\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:20:25)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-02-27T14:57:52.526Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":25,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":20,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:09:44.758Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:10:40.989Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 75
+    at JSON.parse (<anonymous>)
+    at parse (D:\FundoNote\Fundoo_Note\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\FundoNote\Fundoo_Note\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:26:43.624Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T07:18:49.311Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T07:36:55.602Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee2$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:42:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at authorization (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:32:27)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/resetPwd 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T07:50:50.404Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-28T10:52:34.601Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt must be provided
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:53:17)
+    at _callee$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at newNotesValidator (D:\FundoNote\Fundoo_Note\src\validators\/note.validator.js:15:9)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13) 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-28T10:52:56.390Z"}

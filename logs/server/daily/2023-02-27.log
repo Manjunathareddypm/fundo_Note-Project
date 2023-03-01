@@ -1,0 +1,84 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:06:01.479Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:06:10.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:07:56.723Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:08:06.245Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:09:44.758Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: secret or public key must be provided
+    at D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:106:19
+    at getSecret (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (D:\FundoNote\Fundoo_Note\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:22:25)
+    at tryCatch (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (D:\FundoNote\Fundoo_Note\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at userAuth (D:\FundoNote\Fundoo_Note\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\FundoNote\Fundoo_Note\node_modules\express\lib\router\route.js:114:3) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:10:40.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:12:17.279Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:12:17.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:12:41.365Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:12:41.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:18:43.054Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:18:43.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:20:16.063Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:20:16.084Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:22:36.839Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:22:36.870Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 75
+    at JSON.parse (<anonymous>)
+    at parse (D:\FundoNote\Fundoo_Note\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\FundoNote\Fundoo_Note\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:231:16)
+    at done (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\FundoNote\Fundoo_Note\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/Register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-27T15:26:43.624Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:30:59.455Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:30:59.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T15:31:30.324Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T15:31:30.345Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-27T16:32:51.643Z"}
+info: Connected to the database. {"timestamp":"2023-02-27T16:32:51.708Z"}
