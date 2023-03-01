@@ -319,3 +319,134 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-28T1
 info: Connected to the database. {"timestamp":"2023-02-28T14:47:19.114Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-28T15:55:59.145Z"}
 info: Connected to the database. {"timestamp":"2023-02-28T15:55:59.217Z"}
+error: uncaughtException: Cannot find module './config/redis'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+Error: Cannot find module './config/redis'
+Require stack:
+- D:\FundoNote\Fundoo_Note\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:21:1)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Mar 01 2023 13:42:44 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["D:\\FundoNote\\Fundoo_Note\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16519.484},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18652417,"external":21535519,"heapTotal":180187136,"heapUsed":146890872,"rss":225513472},"pid":17656,"uid":null,"version":"v18.13.0"},"stack":"Error: Cannot find module './config/redis'\nRequire stack:\n- D:\\FundoNote\\Fundoo_Note\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:885:27)\n    at Module.require (node:internal/modules/cjs/loader:1105:19)\n    at require (node:internal/modules/cjs/helpers:103:18)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:21:1)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-03-01T08:12:44.552Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":1039,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":885,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1105,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":103,"method":null,"native":false},{"column":1,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":21,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: (0 , _redis.default) is not a function
+TypeError: (0 , _redis.default) is not a function
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\src\/index.js:38:6)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (D:\FundoNote\Fundoo_Note\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\FundoNote\Fundoo_Note\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Wed Mar 01 2023 13:45:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":16668.078},"process":{"argv":["node","D:\\FundoNote\\Fundoo_Note\\src\\index.js"],"cwd":"D:\\FundoNote\\Fundoo_Note","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18380602,"external":21651633,"heapTotal":185356288,"heapUsed":150928448,"rss":234131456},"pid":19552,"uid":null,"version":"v18.13.0"},"stack":"TypeError: (0 , _redis.default) is not a function\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\src\\/index.js:38:6)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-03-01T08:15:13.137Z","trace":[{"column":6,"file":"D:\\FundoNote\\Fundoo_Note\\src\\/index.js","function":null,"line":38,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\FundoNote\\Fundoo_Note\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T08:16:28.724Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T08:16:28.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T09:01:20.591Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T09:01:20.609Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T09:02:19.765Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "string" fails to match the required pattern: /^[A-Z]{1,1}[a-z]{3,30}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T09:04:15.534Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "string" fails to match the required pattern: /^[a-z]{1,3}[A-Z]{1,1}[0-9]{1,4}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-03-01T09:04:25.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T15:54:35.536Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T15:54:36.128Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-03-01T15:55:02.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T15:59:53.845Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T15:59:53.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:07:25.325Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:07:25.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:08:49.275Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:08:49.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:10:19.348Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:10:19.414Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:12:03.030Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:12:03.124Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:13:26.067Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:13:26.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:15:09.405Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:15:09.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:18:25.212Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:18:25.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:21:11.905Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:21:11.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:26:37.705Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:26:37.795Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:28:00.626Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:28:00.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:29:24.064Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:29:24.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:32:15.058Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:32:15.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:35:02.255Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:35:02.351Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:37:27.551Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:37:27.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:41:27.220Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:41:27.323Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:45:03.978Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:45:04.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:45:53.045Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:45:53.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:50:32.981Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:50:33.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:51:21.980Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:51:22.058Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-03-01T16:51:46.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:54:10.428Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:54:10.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:56:53.631Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:56:53.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:59:18.803Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:59:18.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-03-01T16:59:57.960Z"}
+info: Connected to the database. {"timestamp":"2023-03-01T16:59:57.979Z"}

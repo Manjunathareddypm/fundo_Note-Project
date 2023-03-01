@@ -1,9 +1,11 @@
+import { client } from '../config/redis';
 import note from '../models/note.model'
 import { userAuth } from '../middlewares/auth.middleware';
 
 //create a new note
 
 export const createNewNote = async(body) => {
+  await client.del("getalldata")
   const data = await note.create(body)
   return data  
 };
@@ -11,7 +13,10 @@ export const createNewNote = async(body) => {
 
 // get all note
 export const getAllNote = async () => {
+  
     const data = await note.find();
+  
+    await client.set('getalldata',JSON.stringify(data));
     return data
 }
 

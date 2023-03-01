@@ -138,10 +138,7 @@
             ]
         }
     },
-
-
-"/notes": {
-
+    "/notes": {
     "post": {
         "tags": [
             "Note"
@@ -177,6 +174,38 @@
             }
         ]
     },
+    "get": {
+        "tags": [
+            "Note"
+        ],
+        "description": "Get All Note ",
+        "parameters": [
+            {
+                "name": "note",
+                "description": "getallnote",
+                "required": false
+               
+            }
+        ],
+        "produces": [
+            "application/json"
+        ],
+        "responses": {
+            "200": {
+                "description": "Get All Note "
+            },
+            "500": {
+                "description": "Internal Server Error"
+            }
+        },
+        "security": [
+            {
+                "JWT": []
+            }
+        ]
+    }
+},
+"/notes/{id}": {  
     "get": {
         "tags": [
             "Note"

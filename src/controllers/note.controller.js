@@ -33,6 +33,7 @@ export const createNewNote = async (req, res) => {
 export const getAllNote = async (req, res) => {
     try {
         const data = await noteService.getAllNote();
+        console.log(data);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
