@@ -21,6 +21,8 @@ import swaggerDocument from '../src/swagger/swagger.json'
 import redis from './config/redis';
 
 
+
+
 const app = express();
 const host = process.env.APP_HOST;
 const port = process.env.APP_PORT;

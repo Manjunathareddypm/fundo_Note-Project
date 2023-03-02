@@ -9,10 +9,10 @@ import * as UserService from '../services/user.service';
  */
 export const newRegistration = async (req, res, next) => {
     const data = await UserService.newRegistration(req.body);
-    res.status(data.code).json({
-      code: data.code,
-      data: data.data,
-      message: data.message
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "user registered succefully"
     });
 };
 

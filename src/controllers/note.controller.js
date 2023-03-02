@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as noteService from '../services/note.service';
+import { producer, receiver } from '../utils/rabbitMq';
 
 /**
  * Controller to create a note
@@ -39,6 +40,8 @@ export const getAllNote = async (req, res) => {
             data: data,
             message: 'displaying notes'
         })
+        producer(data.message);
+        receiver();
         
     } catch (error) {
         res.status(HttpStatus.BAD_REQUEST).json({

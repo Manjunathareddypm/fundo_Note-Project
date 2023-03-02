@@ -4,8 +4,7 @@ export const client = createClient();
 
 const redis = async() => {
         await client.connect();
-        console.log('client connection established......');
-    
+        console.log('redis client successfully ');    
     
 }
 export default redis;

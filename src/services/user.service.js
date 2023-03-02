@@ -3,31 +3,23 @@ import User from '../models/user.model';
 const bcrypt = require('bcrypt');
 import jwt from "jsonwebtoken";
 import * as util from '../utils/util';
+import * as rabbitMq from '../utils/rabbitMq';
 
 
 
 //create new user
 export const newRegistration = async (body) => {
-  var stat;
   const res = await User.findOne({email: body.email})
   if(res == null ){
   const saltRounds = 10;
   const hashpassword = await bcrypt.hash(body.password, saltRounds);
   body.password = hashpassword;
   const data = await User.create(body);
-  stat = {
-    code: HttpStatus.CREATED,
-    data: data,
-    message: 'User Registered successfully'
-  }
-  }else{
-    stat = {
-      code: HttpStatus.BAD_REQUEST,
-      data: "data",
-      message: 'User already registered'
-    }
-  }
-  return stat
+  const dataMq = JSON.stringify(data)
+  rabbitMq.producer('received', dataMq)
+  return data
+}
+
 };
 
 //user Login

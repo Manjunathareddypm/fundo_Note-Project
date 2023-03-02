@@ -12,24 +12,24 @@ export const createNewNote = async(body) => {
 
 
 // get all note
-export const getAllNote = async () => {
-  
-    const data = await note.find();
-  
+export const getAllNote = async (userID) => {
+    const data = await note.find({userID: userID});
     await client.set('getalldata',JSON.stringify(data));
     return data
 }
 
 
  //get single user
- export const getNote = async (id) => {
-    const data = await note.findById(id);
+ export const getNote = async (id,userID) => {
+    const data = await note.findById({_id: id, userID:userID});
     return data;
   };
 
 
 //update single user
-export const updateNote = async (id, body) => {
+export const updateNote = async (id, body,userID) => {
+  const data = await note.findById({_id: id, userID:userID})
+    if(data != null){
     const data = await note.findByIdAndUpdate(
       id, body,
       {new: true}
@@ -38,7 +38,8 @@ export const updateNote = async (id, body) => {
     
     console.log(data);
     return data;
-  };
+  }
+};
 
 
   //archieve a note
@@ -74,8 +75,11 @@ export const trashNote = async (id,userID) => {
 
 
  //delete single user
-  export const deleteNote = async (id) => { 
+  export const deleteNote = async (id, userID) => { 
+    const data = await note.findById({_id: id, userID:userID})
+    if(data != null){
   const data = await note.findByIdAndDelete(id)
     return data;
-  };
+  }
+};
 
