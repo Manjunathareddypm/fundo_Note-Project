@@ -1872,3 +1872,31 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2023-02-20T09:09:22.239Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:49:48.584Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" with value "Mazhar@12345" fails to match the required pattern: /^[a-z]{1,3}[A-Z]{1,1}[0-9]{1,4}$/ 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-04-19T10:50:59.019Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-19T11:10:58.487Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-04-19T11:13:14.834Z"}

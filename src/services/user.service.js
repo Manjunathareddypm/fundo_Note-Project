@@ -1,6 +1,9 @@
 import HttpStatus from 'http-status-codes';
 import User from '../models/user.model';
 const bcrypt = require('bcrypt');
+import jwt from "jsonwebtoken";
+import { error } from '@hapi/joi/lib/base';
+
 
 
 //create new user
@@ -28,6 +31,24 @@ export const newRegistration = async (body) => {
   }
   return stat
 };
+
+
+//user Login
+
+export const userLogin = async (body) => {
+  var token;
+  const data = await User.findOne({email: body.email})
+  if(data){
+    const pswd = await bcrypt.compare(body.password, data.password);
+    if (!pswd) {
+      throw new error("enter correct password")
+    }else 
+     token= jwt.sign({email:data.email, id:data._id},
+      process.env.SECRET_KEY);
+      data.token = token
+      return data.token
+     }
+  };
 
 
 

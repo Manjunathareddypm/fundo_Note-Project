@@ -17,5 +17,32 @@ export const newRegistration = async (req, res, next) => {
 }
 
 
+/**
+ * Controller to login a  user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const userLogin = async (req, res, next) => {
+  console.log(req.body,"----------------");
+    const data = await UserService.userLogin(req.body);
+    if(data){
+    console.log(data,"star------------");
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'User Login successfully'
+    })
+  } else {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: 'User Login unsuccessfully'
+    })
+  }
+}
+
+
+
 
 
